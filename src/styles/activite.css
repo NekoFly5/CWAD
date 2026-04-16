@@ -1,0 +1,37 @@
+@charset "utf-8";
+.activities-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.activity-block {
+  background-color: gray;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-block img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.activity-block h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.activity-block p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
